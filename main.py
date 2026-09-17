@@ -11,7 +11,7 @@ async def root():
     return {"message": "Бот работает!"}
 
 TOKEN = "8066095257:AAG9W4w2nyg6WKB7zHt1f-CQ8mtQJPis2wM"
-WEB_APP_URL = "https://sovchilar-tgapp-myb3.vercel.app/"
+WEB_APP_URL = "https://weddinglanding-six.vercel.app/"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
