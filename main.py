@@ -10,7 +10,7 @@ app = FastAPI()
 async def root():
     return {"message": "Бот работает!"}
 
-TOKEN = "8066095257:AAG9W4w2nyg6WKB7zHt1f-CQ8mtQJPis2wM"
+TOKEN = "8420669171:AAFVNoLdG545-XLe1b9xIHvSLXu-oq7jewg"
 WEB_APP_URL = "https://weddinglanding-six.vercel.app/"
 
 bot = Bot(token=TOKEN)
@@ -25,3 +25,5 @@ async def start_command(message: types.Message):
 
 loop = asyncio.get_event_loop()
 loop.create_task(dp.start_polling(bot))
+
+
