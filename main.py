@@ -11,7 +11,7 @@ async def root():
     return {"message": "Бот работает!"}
 
 
-TOKEN = "НОВЫЙ_ТОКЕН_ОТ_BOTFATHER"
+TOKEN = "8420669171:AAFVNoLdG545-XLe1b9xIHvSLXu-oq7jewg"
 WEB_APP_URL = "https://weddinglanding-six.vercel.app/"
 
 bot = Bot(token=TOKEN)
