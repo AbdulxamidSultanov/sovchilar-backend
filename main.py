@@ -23,6 +23,15 @@ async def start_command(message: types.Message):
     ])
     await message.answer("Нажмите кнопку ниже, чтобы открыть веб-приложение:", reply_markup=keyboard)
 
+@router.message()
+async def get_chat_id(message: Message):
+    print("CHAT ID:", message.chat.id)
+
+    await message.answer(
+        f"Ваш Telegram ID: {message.chat.id}"
+    )
+
+
 loop = asyncio.get_event_loop()
 loop.create_task(dp.start_polling(bot))
 
