@@ -14,7 +14,7 @@ from fastapi import FastAPI
 
 
 TOKEN = "8420669171:AAFVNoLdG545-XLe1b9xIHvSLXu-oq7jewg"
-WEB_APP_URL = "https://weddinglanding-six.vercel.app/"
+WEB_APP_URL = "https://weddingday-project.onrender.com/"
 
 
 bot = Bot(token=TOKEN)
