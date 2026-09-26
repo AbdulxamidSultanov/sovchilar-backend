@@ -12,9 +12,8 @@ from aiogram.types import (
 
 from fastapi import FastAPI
 
-
-TOKEN = process.env.BOT_ID
-WEB_APP_URL = process.env.PROJECT_URL
+TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+WEB_APP_URL = os.environ["WEB_PROJECT_URL"]
 
 
 bot = Bot(token=TOKEN)
